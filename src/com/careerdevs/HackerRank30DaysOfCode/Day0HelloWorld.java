@@ -1,4 +1,4 @@
-package com.careerdevs;
+package com.careerdevs.HackerRank30DaysOfCode;
 
 import java.io.*;
 import java.util.*;
