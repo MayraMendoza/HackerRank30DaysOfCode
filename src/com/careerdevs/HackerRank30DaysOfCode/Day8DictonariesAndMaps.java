@@ -7,5 +7,22 @@ package com.careerdevs.HackerRank30DaysOfCode;
  *
  * Note: Your phone book should be a Dictionary/Map/HashMap data structure.
  */
-public class Day8DictonariesAndMaps {
+import java.util.*;
+import java.io.*;
+
+class Day8DirectoriesAndMaps{
+    public static void main(String []argh){
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        for(int i = 0; i < n; i++){
+            String name = in.next();
+            int phone = in.nextInt();
+            // Write code here
+        }
+        while(in.hasNext()){
+            String s = in.next();
+            // Write code here
+        }
+        in.close();
+    }
 }
