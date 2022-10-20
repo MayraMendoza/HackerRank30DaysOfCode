@@ -8,4 +8,16 @@ package com.careerdevs.HackerRank30DaysOfCode;
         */
 
 public class Day9 {
+    public static int factorial(int n) {
+        if (n == 1) {
+//            System.out.print("hit 1");
+            return 1;
+        }
+
+        else {
+            // return n * n-1 until n==1
+        }
+            return(n * factorial(n-1));
+        }
 }
+
